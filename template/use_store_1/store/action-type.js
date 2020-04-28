@@ -1,0 +1,7 @@
+export const SET_MPA_DATA = 'SET_MPA_DATA'
+export const IS_SHOW = 'IS_SHOW'
+export const SET_PROVINCE_LIST = 'SET_PROVINCE_LIST'
+export const SET_CITY_LIST = 'SET_CITY_LIST'
+export const SET_PROGECT_LIST = 'SET_PROGECT_LIST'
+export const SET_COVER_NAME = 'SET_COVER_NAME'
+export const SET_PROVINCE_ID = 'SET_PROVINCE_ID'

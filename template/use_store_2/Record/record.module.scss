@@ -1,0 +1,131 @@
+@import '@/assets/style/_mixins.scss';
+.Main {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  background: #1a2234;
+  box-sizing: border-box;
+}
+.AppContain {
+  padding-bottom: 45px;
+}
+.tabBox {
+  display: flex;
+  justify-content: space-around;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 40px;
+  background: #232c3e;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'PingFang SC';
+  align-items: center;
+}
+.tabs {
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+.descFont {
+  color: #e5c195;
+  font-size: 12px;
+}
+.scroll {
+  padding-left: 5px;
+  height: calc(100vh - 150px); //20203-26
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.iconsBox {
+  margin: 10px;
+}
+.icons {
+  color: gray;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1a2234;
+  border-radius: 10px;
+}
+.infoStyle {
+  padding-left: 5px;
+  color: white;
+}
+
+.infomation {
+  height: 20px;
+  line-height: 20px;
+  color: #909399;
+  font-size: 16px;
+  border-left: 3px solid #ae9478;
+  padding-left: 6px;
+  margin-bottom: 10px;
+}
+.personInfo {
+  display: flex;
+  div:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+}
+
+.showBox {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 5px;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  background: #1a2234;
+  border-radius: 5px;
+}
+
+.desc {
+  font-size: 14px;
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.navInfo {
+  font-size: 14px;
+  text-align: left;
+  color: #f5f5f5;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.bgImg0 {
+  height: 60px;
+  @include bg-img('../images/bg_wendu');
+}
+.bgImg1 {
+  height: 60px;
+  @include bg-img('../images/bg_xinxi');
+}
+.bgImg2 {
+  height: 60px;
+  @include bg-img('../images/bg_anzhuangjilu');
+}
+
+.bodyAera {
+  background: #232c3e;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.iconsImg {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 10px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
