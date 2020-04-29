@@ -143,6 +143,7 @@
     ]
   },
   "devDependencies": {
+    "echarts": "^4.7.0",
     "redux-devtools-extension": "^2.13.8"
   }
 }
